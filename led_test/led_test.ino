@@ -8,7 +8,7 @@
 
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
-int delayval = 100;
+int delayval = 200;
 float values[7];
 int color[3];
 
@@ -51,6 +51,7 @@ void loop() {
     for(int j=0; j < up; j++){
       pixels.setPixelColor(((NUMPIXELS/7)*i)+j, pixels.Color(color[0], color[1], color[2]));
       pixels.show();
+      delay(30);
     }
   }
   
