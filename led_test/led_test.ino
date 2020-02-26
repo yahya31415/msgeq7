@@ -55,7 +55,7 @@ void loop() {
     }
   }
   
-  delay(delayval);
+  // delay(delayval);
   pixels.clear();
 }
 
