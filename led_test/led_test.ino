@@ -51,7 +51,7 @@ void loop() {
     for(int j=0; j < up; j++){
       pixels.setPixelColor(((NUMPIXELS/7)*i)+j, pixels.Color(color[0], color[1], color[2]));
       pixels.show();
-      delay(30);
+      // delay(30);
     }
   }
   
